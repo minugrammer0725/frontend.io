@@ -45,8 +45,3 @@ p {
   padding: 15px 0;
   width: 80%;
 }
-
-@media (min-width: 375px) {
-  .qr-header {
-  }
-}
