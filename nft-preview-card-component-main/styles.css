@@ -1,0 +1,103 @@
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+}
+
+p {
+  font-size: 16px;
+}
+
+hr {
+  width: 90%;
+  height: 2px;
+  background-color: hsl(215, 32%, 27%);
+  border: none;
+}
+
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(215, 51%, 70%);
+}
+
+.card {
+  max-width: 300px;
+  margin: 10% auto;
+  background-color: hsl(216, 50%, 16%);
+  padding: 15px 15px;
+  border-radius: 15px;
+}
+
+.card > img {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.card h2 {
+  margin: 0 auto;
+  width: 90%;
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+  padding: 10px;
+}
+
+.card p {
+  color: hsl(215, 51%, 70%);
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.infos {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+price {
+  display: flex;
+  align-items: center;
+}
+
+.price span {
+  color: hsl(178, 100%, 50%);
+}
+
+.due {
+  display: flex;
+  align-items: center;
+}
+
+.due span {
+  color: hsl(215, 51%, 70%);
+}
+
+.author {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.author > img {
+  max-width: 30px;
+  margin-right: 20px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 18px;
+}
+
+.author span {
+  color: hsl(215, 51%, 70%);
+}
+
+.author span.author-name {
+  color: hsl(0, 0%, 100%);
+}
