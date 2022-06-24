@@ -1,0 +1,87 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+  max-width: 340px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 1.2rem;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;
+  margin: 0 -20px;
+  box-sizing: border-box;
+  border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.card p.summary {
+  color: hsl(224, 23%, 55%);
+  padding: 0 1.2rem;
+}
+
+.plan {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1.2rem;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1rem;
+}
+
+.plan-text {
+  font-weight: bold;
+}
+
+.plan-price {
+  color: hsl(224, 23%, 55%);
+}
+
+.price {
+  display: flex;
+}
+
+.price > img {
+  max-width: 40px;
+}
+
+.change a {
+  cursor: pointer;
+}
+
+.buttons {
+  margin: 0 auto;
+  padding: 1rem;
+  display: block;
+}
+
+button {
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+.proceed {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 8px 6px 5px rgb(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.proceed:hover {
+  cursor: pointer;
+  background: hsl(223, 47%, 23%);
+}
+
+.cancel {
+  margin-top: 10px;
+  background: white;
+}
