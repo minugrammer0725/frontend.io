@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  /* Primary */
+  --dark--cyan--primary: hsl(158, 36%, 37%);
+  --cream--primary: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --very--dark--blue--neutral: hsl(212, 21%, 14%);
+  --dark--gray--blue--neutral: hsl(228, 12%, 48%);
+  --white--neutral: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Fraunces", serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--cream--primary) !important;
+}
+
+p {
+  font-size: 14px;
+}
+
+.card {
+  max-width: 350px;
+  margin: 1.2rem auto;
+  background-color: var(--white--neutral);
+  border-radius: 12px;
+  padding: 0 0 20px 0;
+}
+
+.card > img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.category {
+  color: var(--dark--gray--blue--neutral);
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  margin: 0px 0px;
+}
+
+.item-name {
+  color: var(--very--dark--blue--neutral);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  padding: 10px 20px;
+  margin: 0px 0px;
+  line-height: 1.8rem;
+}
+
+.item-detail {
+  color: var(--dark--gray--blue--neutral);
+  padding: 10px 20px;
+  margin: 0px 0px;
+}
+
+.price {
+  display: flex;
+  padding: 10px 20px;
+  margin: 0px 0px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.discounted-price {
+  color: var(--dark--cyan--primary);
+  font-size: 1.8rem;
+}
+
+.regular-price {
+  color: var(--dark--gray--blue--neutral);
+  font-size: 0.8rem;
+  margin-left: 1.2rem;
+  text-decoration: line-through;
+}
+
+.add {
+  width: 75%;
+  border-radius: 10px;
+  padding: 1rem 0.8rem;
+  display: block;
+  margin: 0 auto;
+  background-color: var(--dark--cyan--primary);
+  text-align: center;
+  align-items: center;
+}
+
+.add > span {
+  color: var(--white--neutral);
+}
